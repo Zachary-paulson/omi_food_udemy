@@ -24,6 +24,74 @@ html {
   margin: 0 auto;
 }
 
+section {
+  padding: 80px 0;
+}
+
+.box {
+  padding: 1%;
+}
+/* ------ HEADINGS ------ */
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 240%;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 110%;
+  margin-bottom: 15px;
+}
+
+h2:after {
+  display: block;
+  height: 2px;
+  background-color: #e67e22;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+/* ------ Paragraphs ------ */
+.long-copy {
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.box p{
+  font-size: 90%;
+}
+
+/* ------ Icons ------ */
+
+.icon-big{
+  display: block;
+  font-size: 300%;
+  color: #e67e22;
+  margin-bottom: 10px;
+}
+
 /* ------ BUTTONS ------ */
 .btn:link,
 .btn:visited {
@@ -65,6 +133,7 @@ html {
   border: 1px solid #cf6d17;
   color: #fff;
 }
+
 /* -------------------------------------------- */
 /* HEADER */
 /* -------------------------------------------- */
@@ -85,25 +154,15 @@ header {
   transform: translate(-50%, -50%);
 }
 
-.hero-text-box h1 {
-  margin: 0;
-  color: #fff;
-  font-size: 240%;
-  font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  word-spacing: 4px;
-}
-
 /* ------ Navbar ------ */
-.logo{
+.logo {
   height: 100px;
   width: auto;
   float: left;
   margin-top: 20px;
 }
 
-.main-nav{
+.main-nav {
   float: right;
   list-style: none;
   margin-top: 55px;
@@ -115,7 +174,7 @@ header {
 }
 
 .main-nav li a:link,
-.main-nav li a:visited{
+.main-nav li a:visited {
   padding: 8px 0;
   color: #fff;
   text-decoration: none;
@@ -125,6 +184,6 @@ header {
 }
 
 .main-nav li a:hover,
-.main-nav li a:active{
+.main-nav li a:active {
   border-bottom: 2px solid #e67e22;
 }
