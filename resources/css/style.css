@@ -15,9 +15,11 @@ html {
   font-size: 20px;
 }
 
-.clearfix {zoom: 1}
-.clearfix:after{
-  content: '.';
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: ".";
   clear: both;
   display: block;
   height: 0;
@@ -88,17 +90,46 @@ h2:after {
   margin-left: 15%;
 }
 
-.box p{
+.box p {
   font-size: 90%;
 }
 
 /* ------ Icons ------ */
+a:link,
+a:active{
+  color: #e67e22;
+  text-decoration: none;
+  border-bottom: 1px solid #e67e22;
+  padding-bottom: 1px;
+  transition: color 0.2s, border-bottom 0.2s;
+}
 
-.icon-big{
+a:hover{
+  color: #555;
+  border-bottom: 1px solid transparent;
+}
+
+/* ------ Icons ------ */
+
+.icon-big {
   display: block;
   font-size: 300%;
   color: #e67e22;
   margin-bottom: 10px;
+}
+
+.icon-small{
+  display: inline-block;
+  width: 30px;
+  color: #e67e22;
+  text-align: center;
+  font-size: 120%;
+  margin-right: 10px;
+  /* secerts to align icons */
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top: -5px;
+
 }
 
 /* ------ BUTTONS ------ */
@@ -204,17 +235,15 @@ header {
   margin-bottom: 30px;
 }
 
-
 /* -------------------------------------------- */
 /* MEALS */
 /* -------------------------------------------- */
-.section-meals{
+.section-meals {
   padding: 0;
 }
-.meals-showcase{
+.meals-showcase {
   list-style: none;
   width: 100%;
-
 }
 
 .meals-showcase li {
@@ -247,8 +276,8 @@ header {
 /* HOW IT WORKS */
 /* -------------------------------------------- */
 
-.section-steps{
-  background-color: #FBFBFB;
+.section-steps {
+  background-color: #fbfbfb;
 }
 .steps-box:first-child {
   text-align: right;
@@ -266,7 +295,7 @@ header {
   height: auto;
 }
 
-.works-steps{
+.works-steps {
   margin-bottom: 50px;
 }
 
@@ -292,4 +321,37 @@ header {
   height: 50px;
   width: auto;
   margin-right: 10px;
+}
+
+.btn-app:link,
+.btn-app:visited{
+  border: 0;
+}
+
+/* -------------------------------------------- */
+/* Cities */
+/* -------------------------------------------- */
+.section-cities{
+  width: 100%;
+}
+.section-cities .box{
+  width: 23.8%;
+}
+.section-cities img{
+  margin-bottom: 15px;
+  height: 100%;
+  width: 100%;
+}
+
+.city-feature p:first-child{
+  margin-top: 20px;
+}
+
+.city-feature p{
+  margin-bottom: 5px;
+}
+
+.city-feature a{
+  text-decoration: none;
+
 }
