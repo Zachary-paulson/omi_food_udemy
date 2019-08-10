@@ -19,7 +19,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Authors
 
-* **Zachary Paulson** - *Initial work* - [Zachary-paulson](https://github.com/Zachary-paulson)
+* **Zachary Paulson** - *All work* - [Zachary-paulson](https://github.com/Zachary-paulson)
 
 ## Acknowledgments
 
